@@ -1,0 +1,160 @@
+header.bg-dark {
+  position: sticky;
+  top: 0;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 70px;
+}
+#navbar > ul > li > a {
+  color: #fde2ab;
+  padding: 2rem;
+  border-radius: 2rem;
+  transition-duration: 0.3s;
+}
+#navbar > ul {
+  display: flex;
+  align-items: center;
+}
+#navbar > ul > li > a:hover {
+  background-color: #207a7e;
+  border-radius: 3rem;
+  transition-property: background-color;
+}
+#navbar > ul > li > a:active {
+  color: #df936d;
+}
+#navbar > h1 {
+  font-family: 'ikincil';
+  letter-spacing: 0.125rem;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+#home > img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+.name {
+  padding: 2rem;
+}
+.name > p {
+  font-style: italic;
+  font-size: 1.25rem;
+  color: #338d91;
+}
+.name > h2 {
+  color: #083434;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  font-family: 'ikincil';
+  letter-spacing: 0.125rem;
+}
+#about {
+  color: #fde2ab;
+  padding: 3rem;
+}
+#about > .melumat {
+  display: flex;
+  justify-content: space-evenly;
+}
+#about > .melumat > .item {
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+}
+#about > .melumat > .item > h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#about > .melumat > .item > i {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+#skills > h3 {
+  padding: 3rem;
+  color: #083434;
+}
+#skills > .icons_skills > .icon > img {
+  width: 10rem;
+  height: 10rem;
+  padding-bottom: 1.5rem;
+}
+
+/* ######################### SKILL elave edende GAP azalt! ######################### */
+
+#skills > .icons_skills {
+  display: flex;
+  gap: 7rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#skills > .icons_skills > .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact{
+  margin-top: 5rem;
+}
+#contact>.container>.social-container{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+padding: 2rem;
+}
+#contact>.container>.social-container>.contact>p{
+  color: #fde2ab;
+  font-size: 1.5rem;
+}
+#contact>.container>.social-container>.social>a{
+  color: #fde2ab;
+  font-size: 3rem;
+  /* margin: 2rem; */
+}
+#contact>.container>h3{
+  padding-top: 2rem;
+}
+#contact>.container{
+padding-bottom: 3rem;
+}
+#contact>.container>h2{
+text-align: center;
+color: white;
+font-size: 1.25rem;
+}
+#contact>.container>h2>a{
+text-align: center;
+color: #fde2ab;
+text-decoration: underline;
+margin-bottom: 2rem;
+}
+.duyme-contact {
+  border-radius: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.5rem;
+  border: 1px solid #083434;
+  /* background-color: #093434; */
+  color: #fde2ab;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+}
+.duyme-contact:hover{
+    color: #083434;
+    background-color: #207a7e;
+    border: 1px solid #083434;
+}
+.duyme-contact:active{
+
+    box-shadow: 0.5rem 0.5rem 1rem rgb(32, 32, 31);
+}
