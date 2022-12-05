@@ -26,7 +26,7 @@ a {
   font-size: 2rem;
 }
 .bg-dark {
-  background: #083434;
+  background: #6729db;
 }
 .bg-light {
   background: #207a7e;
@@ -47,7 +47,6 @@ a {
   padding: 0.8rem 3rem;
   font-size: 1.5rem;
   border: 1px solid #083434;
-  /* background-color: #093434; */
   color: #fde2ab;
   transition-duration: 0.3s;
   transition-property: background-color;
